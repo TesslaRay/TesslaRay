@@ -1,0 +1,23 @@
+{
+  "name": "cen-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TesslaRay/CEN-scraping.git"
+  },
+  "author": "Cristian Valdivia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TesslaRay/CEN-scraping/issues"
+  },
+  "homepage": "https://github.com/TesslaRay/CEN-scraping#readme",
+  "dependencies": {
+    "mustache": "^4.0.1",
+    "puppeteer": "^5.3.1"
+  }
+}
