@@ -1,19 +1,12 @@
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-<style>
-  body {
-    font-family: 'Quicksand';font-size: 14px;
-  }
-</style>
-
 <body>
 <h1>Hello </h1>
 
-<p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile.svg"width="25" style="vertical-align:middle"/> <b>Santiago, Chile.</b> </p>
+<p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile5.svg" width="35"/> <b>Santiago, Chile.</b> </p>
 <p>I'm CEO: <a href="https://www.ioled.cl/">iOLED.</a> We connect cannabis growers with his crop with IoT technology.</p>
 
 <p>As an electrical engineer, I believe that we must all fight to increase the generation of renewable energy.</p>
 
-<h3 align="center"> Use of energy in <img src="./chile.svg"width="35" style="vertical-align:middle" /> Chile yesterday</h3>
+<h3 align="center"> Use of energy in <img src="./chile5.svg" width="35" vertical-align:"middle"/> Chile yesterday</h3>
 <table style="text-align:center; width:300px" align="center">
   <tr>
     <td><img src="./carbon.svg" width="40"></td>
