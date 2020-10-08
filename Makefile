@@ -12,6 +12,6 @@ init i:
 
 run r:
 	@echo "[Scraping] Scraping service "
-	@PORT=$(PORT) node src/index.js
+	@PORT=$(PORT) node index.js
 	
 .PHONY: version v init i run r
