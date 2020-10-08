@@ -1,13 +1,12 @@
-<body>
 <h1>Hello </h1>
 
-<p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile5.svg" width="35"/> <b>Santiago, Chile.</b> </p>
-<p>I'm CEO: <a href="https://www.ioled.cl/">iOLED.</a> We connect cannabis growers with his crop with IoT technology.</p>
+<p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile.svg"width="25"/> <b>Santiago, Chile.</b> </p>
+<p>Currently I'm CEO of <a href="https://www.ioled.cl/">iOLED.</a> We connect cannabis growers with his crop with IoT technology.</p>
 
-<p>As an electrical engineer, I believe that we must all fight to increase the generation of renewable energy.</p>
+<p>As an electrical engineer, I believe that we must fight to increase the generation of renewable energy.</p>
 
-<h3 align="center"> Use of energy in <img src="./chile5.svg" width="35" vertical-align:"middle"/> Chile yesterday</h3>
-<table style="text-align:center; width:300px" align="center">
+<h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday</h3>
+<table align="center">
   <tr>
     <td><img src="./carbon.svg" width="40"></td>
     <td><img src="./eolic.svg" width="60"/></td>
@@ -16,10 +15,10 @@
 
   </tr>
   <tr>
-    <td> <strong> 45.36% </strong></td>
-    <td> <strong> 14.03% </strong></td>
-    <td> <strong> 30.36% </strong></td>
-    <td> <strong> 9.95% </strong></td>
+    <td> <strong> 45.77% </strong></td>
+    <td> <strong> 11.14% </strong></td>
+    <td> <strong> 30.66% </strong></td>
+    <td> <strong> 12.12% </strong></td>
   </tr>
 </table>
 
@@ -47,5 +46,4 @@
 
 <hr>
 
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Wednesday, 7 October, 15:59 GMT-3<br /></p>
-</body>
+<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Thursday, 8 October, 11:50 GMT-3<br /></p>
