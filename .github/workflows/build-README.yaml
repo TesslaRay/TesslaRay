@@ -10,14 +10,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
-      - uses: act10ns/slack@v1
+      - name: Notify
+        uses: innocarpe/actions-slack@v1
         with:
-          status: starting
-          channel: '@Cristian Valdivia'
-        if: always()
+          status: ${{ job.status }} # Required
+          success_text: 'Step Succeeded 🚀' # Optional
+          failure_text: 'Step Failed 😱' # Optional
+          cancelled_text: 'Step Cancelled ⚠️' # Optional
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
       - name: checkout
         uses: actions/checkout@v1
       - name: setup node
@@ -37,10 +40,3 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: act10ns/slack@v1
-        with:
-          status: ${{ job.status }}
-          steps: ${{ toJson(steps) }}
-          channel: '@Cristian Valdivia'
-        if: always()
