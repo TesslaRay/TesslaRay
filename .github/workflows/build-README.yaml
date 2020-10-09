@@ -10,8 +10,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
+      - uses: act10ns/slack@v1
+        with:
+          status: starting
+          channel: '@Cristian Valdivia'
+        if: always()
       - name: checkout
         uses: actions/checkout@v1
       - name: setup node
@@ -31,3 +37,10 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - uses: act10ns/slack@v1
+        with:
+          status: ${{ job.status }}
+          steps: ${{ toJson(steps) }}
+          channel: '@Cristian Valdivia'
+        if: always()
