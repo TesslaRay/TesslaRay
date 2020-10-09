@@ -1,32 +1,12 @@
-<<<<<<< HEAD
 <h1>Hello </h1>
 
 <p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile.svg"width="25"/> <b>Santiago, Chile.</b> </p>
 <p>Currently I'm CEO of <a href="https://www.ioled.cl/">iOLED.</a> We connect cannabis growers with his crop with IoT technology.</p>
-=======
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-<style>
-  body {
-    font-family: 'Quicksand';font-size: 14px;
-  }
-</style>
-
-<body>
-<h1>Hello </h1>
-
-<p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile.svg"width="25" style="vertical-align:middle"/> <b>Santiago, Chile.</b> </p>
-<p>I'm CEO: <a href="https://www.ioled.cl/">iOLED.</a> We connect cannabis growers with his crop with IoT technology.</p>
->>>>>>> b01cd150a6a10ace773ac4d1f362ea9d3f08f21c
 
 <p>As an electrical engineer, I believe that we must fight to increase the generation of renewable energy.</p>
 
-<<<<<<< HEAD
 <h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday</h3>
 <table align="center">
-=======
-<h3 align="center"> Use of energy in <img src="./chile.svg"width="35" style="vertical-align:middle" /> Chile yesterday</h3>
-<table style="text-align:center; width:300px" align="center">
->>>>>>> b01cd150a6a10ace773ac4d1f362ea9d3f08f21c
   <tr>
     <td><img src="./carbon.svg" width="40"></td>
     <td><img src="./eolic.svg" width="60"/></td>
@@ -35,10 +15,10 @@
 
   </tr>
   <tr>
-    <td> <strong> 45.77% </strong></td>
-    <td> <strong> 11.14% </strong></td>
-    <td> <strong> 30.66% </strong></td>
-    <td> <strong> 12.12% </strong></td>
+    <td> <strong> 42.50% </strong></td>
+    <td> <strong> 12.76% </strong></td>
+    <td> <strong> 31.76% </strong></td>
+    <td> <strong> 12.68% </strong></td>
   </tr>
 </table>
 
@@ -66,9 +46,4 @@
 
 <hr>
 
-<<<<<<< HEAD
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Thursday, 8 October, 11:50 GMT-3<br /></p>
-=======
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Thursday, 8 October, 11:44 GMT-3<br /></p>
-</body>
->>>>>>> b01cd150a6a10ace773ac4d1f362ea9d3f08f21c
+<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Friday, 9 October, 09:37 GMT-3<br /></p>

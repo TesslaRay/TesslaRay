@@ -16,7 +16,7 @@ let DATA = {
   }),
 };
 
-async function setWeatherInformation() {
+async function scracpCEN() {
   try {
     let browser = await puppeteer.launch({ headless: true });
 
@@ -75,7 +75,12 @@ async function generateReadMe() {
 }
 
 async function action() {
-  await setWeatherInformation();
+   /**
+   * Scrap CEN web page
+   */
+
+  await scracpCEN();
+
   /**
    * Generate README
    */
