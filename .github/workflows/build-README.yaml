@@ -40,6 +40,7 @@ jobs:
       - name: Slack-Workflow 
         uses: Gamesight/slack-workflow-status@master
         with:
+          include_jobs: 'false'
           repo_token: ${{secrets.GITHUB_TOKEN}}
           slack_webhook_url: ${{secrets.SLACK_WEBHOOK_URL}}
           channel: '#devcristian'
