@@ -44,7 +44,7 @@ jobs:
           repo_token: ${{secrets.GITHUB_TOKEN}}
           slack_webhook_url: ${{secrets.SLACK_WEBHOOK_URL}}
           # Optional Input
-          channel: '@Cristian Valdivia'
+          channel: '#devcristian'
           name: 'Anthony Workflow Bot'
           icon_emoji: ':poop:'
           icon_url: 'https://avatars0.githubusercontent.com/u/1701160?s=96&v=4'
