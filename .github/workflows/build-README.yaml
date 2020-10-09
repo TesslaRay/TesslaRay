@@ -8,7 +8,7 @@ on:
     - cron: '0 12 * * *'
 
 jobs:
-  buildreadme:
+  build-readme:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
