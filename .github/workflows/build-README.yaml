@@ -8,18 +8,9 @@ on:
     - cron: '0 12 * * *'
 
 jobs:
-  build:
+  buildreadme:
     runs-on: ubuntu-latest
     steps:
-      - uses: act10ns/slack@v1
-        with:
-          status: ${{ job.status }}
-          steps: ${{ toJson(steps) }}
-          channel: '@Cristian Valdivia'
-        if: always()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
       - name: checkout
         uses: actions/checkout@v1
       - name: setup node
@@ -39,3 +30,21 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  slack-workflow-status:
+    if: always()
+    name: Post Workflow Status To Slack
+    needs:
+      - build-readme
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack Workflow Notification
+        uses: Gamesight/slack-workflow-status@master
+        with:
+          # Required Input
+          repo_token: ${{secrets.GITHUB_TOKEN}}
+          slack_webhook_url: ${{secrets.SLACK_WEBHOOK_URL}}
+          # Optional Input
+          channel: '@Cristian Valdivia'
+          name: 'Anthony Workflow Bot'
+          icon_emoji: ':poop:'
+          icon_url: 'https://avatars0.githubusercontent.com/u/1701160?s=96&v=4'
