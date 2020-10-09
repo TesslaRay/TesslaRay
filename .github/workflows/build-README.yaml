@@ -1,4 +1,4 @@
-name: README build
+name: build README.md
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - uses: act10ns/slack@v1
         with:
           status: ${{ job.status }}
