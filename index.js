@@ -16,9 +16,24 @@ let DATA = {
   }),
 };
 
+console.log(DATA);
+
 async function scracpCEN() {
   try {
-    let browser = await puppeteer.launch({ headless: true });
+    let browser = await puppeteer.launch({ 
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-infobars',
+        '--window-position=0,0',
+        '--ignore-certifcate-errors',
+        '--ignore-certifcate-errors-spki-list',
+        '--incognito',
+        '--proxy-server=http=194.67.37.90:3128',
+        // '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
+      ],
+      // headless: false,
+    });
 
     let page = await browser.newPage();
 
@@ -57,14 +72,13 @@ async function scracpCEN() {
     DATA.solar = dataEnergyArray[4].percent;
 
     await browser.close();
-    console.log("Browser Closed");
+    console.log("Browser closed");
   } catch (err) {
-    await browser.close();
-    console.log("Browser Closed");
+    console.log("Browser closed for error");
+    process.exit();
   }
 };
 
-console.log(DATA);
 
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
