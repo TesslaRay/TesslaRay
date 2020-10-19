@@ -64,11 +64,14 @@ async function scracpCEN() {
       }
     }
 
-    DATA.term = dataEnergyArray[0].percent;
-    DATA.eolic = dataEnergyArray[1].percent;
-    DATA.hidro = dataEnergyArray[3].percent;
-    DATA.solar = dataEnergyArray[4].percent;
+    dataEnergyArrayType = dataEnergyArray.map(id => id.type);
 
+    DATA.term = dataEnergyArray[dataEnergyArrayType.indexOf('TERMICA:')].percent;
+    DATA.eolic = dataEnergyArray[dataEnergyArrayType.indexOf('EOLICA:')].percent;
+    DATA.hidro = dataEnergyArray[dataEnergyArrayType.indexOf('HIDRAULICA:')].percent;
+    DATA.solar = dataEnergyArray[dataEnergyArrayType.indexOf('SOLAR:')].percent;
+
+    console.log(DATA);
     await browser.close();
     console.log("Browser closed");
   } catch (err) {
