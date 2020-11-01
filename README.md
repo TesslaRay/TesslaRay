@@ -15,10 +15,10 @@
 
   </tr>
   <tr>
-    <td> <strong> 41.00% </strong></td>
-    <td> <strong> 6.17% </strong></td>
-    <td> <strong> 39.28% </strong></td>
-    <td> <strong> 13.29% </strong></td>
+    <td> <strong> 41.80% </strong></td>
+    <td> <strong> 4.79% </strong></td>
+    <td> <strong> 39.70% </strong></td>
+    <td> <strong> 13.34% </strong></td>
   </tr>
 </table>
 
@@ -46,4 +46,4 @@
 
 <hr>
 
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Saturday, October 31, 10:05 AM GMT-3<br /></p>
+<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Sunday, November 1, 10:06 AM GMT-3<br /></p>
