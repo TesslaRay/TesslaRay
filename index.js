@@ -18,6 +18,10 @@ let DATA = {
 
 console.log(DATA);
 
+
+/**
+ * Scrapping from webpage from CEN
+ */
 async function scracpCEN() {
   try {
     let browser = await puppeteer.launch({ 
@@ -52,8 +56,8 @@ async function scracpCEN() {
       }
 
       return dataEnergySelector;
-    })
-
+    });
+    
     let dataEnergyArray = [];
     for (let i = 0; i < dataEnergy.length; i++) {
       let data = dataEnergy[i].Type.split(' ');
@@ -66,6 +70,13 @@ async function scracpCEN() {
 
     dataEnergyArrayType = dataEnergyArray.map(id => id.type);
 
+    let genChile = 0;
+    for ( let i = 0; i < dataEnergyArray.length; i ++){
+      dataEnergyArray[i].gen = dataEnergyArray[i].gen.replace(',','');
+      genChile = genChile + parseInt(dataEnergyArray[i].gen);
+    }
+    DATA.genChile = (genChile/1000).toFixed(1);
+
     DATA.term = dataEnergyArray[dataEnergyArrayType.indexOf('TERMICA:')].percent;
     DATA.eolic = dataEnergyArray[dataEnergyArrayType.indexOf('EOLICA:')].percent;
     DATA.hidro = dataEnergyArray[dataEnergyArrayType.indexOf('HIDRAULICA:')].percent;
@@ -75,6 +86,7 @@ async function scracpCEN() {
     await browser.close();
     console.log("Browser closed");
   } catch (err) {
+    console.log(err);
     console.log("Browser closed for error");
     process.exit();
   }
@@ -93,7 +105,6 @@ async function action() {
    /**
    * Scrap CEN web page
    */
-
   await scracpCEN();
 
   /**

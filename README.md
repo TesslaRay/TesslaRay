@@ -5,7 +5,7 @@
 
 <p>As an electrical engineer, I believe that we must fight to increase the generation of renewable energy.</p>
 
-<h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday</h3>
+<h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday: 215.0 GWh</h3>
 <table align="center">
   <tr>
     <td><img src="./carbon.svg" width="40"></td>
@@ -15,16 +15,10 @@
 
   </tr>
   <tr>
-    <td> <strong> 35.69% </strong></td>
-<<<<<<< HEAD
-    <td> <strong> 11.58% </strong></td>
-    <td> <strong> 38.28% </strong></td>
-    <td> <strong> 14.14% </strong></td>
-=======
-    <td> <strong> 14.14% </strong></td>
-    <td> <strong> 0.31% </strong></td>
-    <td> <strong> 38.28% </strong></td>
->>>>>>> 40d3c0f14243ec790ab0a6fc37ae350d32046068
+    <td> <strong> 40.87% </strong></td>
+    <td> <strong> 5.19% </strong></td>
+    <td> <strong> 41.67% </strong></td>
+    <td> <strong> 11.93% </strong></td>
   </tr>
 </table>
 
@@ -52,8 +46,4 @@
 
 <hr>
 
-<<<<<<< HEAD
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Monday, 19 October, 08:52 GMT-3<br /></p>
-=======
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Monday, October 19, 8:42 AM GMT-3<br /></p>
->>>>>>> 40d3c0f14243ec790ab0a6fc37ae350d32046068
+<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Thursday, 5 November, 11:59 GMT-3<br /></p>
