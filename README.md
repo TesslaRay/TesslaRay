@@ -5,7 +5,7 @@
 
 <p>As an electrical engineer, I believe that we must fight to increase the generation of renewable energy.</p>
 
-<h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday: 227.5 GWh</h3>
+<h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday: 199.2 GWh</h3>
 <table align="center">
   <tr>
     <td><img src="./carbon.svg" width="40"></td>
@@ -15,10 +15,10 @@
 
   </tr>
   <tr>
-    <td> <strong> 52.45% </strong></td>
-    <td> <strong> 10.76% </strong></td>
-    <td> <strong> 23.44% </strong></td>
-    <td> <strong> 13.35% </strong></td>
+    <td> <strong> 56.82% </strong></td>
+    <td> <strong> 4.96% </strong></td>
+    <td> <strong> 25.51% </strong></td>
+    <td> <strong> 12.71% </strong></td>
   </tr>
 </table>
 
@@ -59,4 +59,4 @@
 
 <hr>
 
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Thursday, January 28, 10:20 AM GMT-3<br /></p>
+<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Sunday, January 31, 10:19 AM GMT-3<br /></p>
