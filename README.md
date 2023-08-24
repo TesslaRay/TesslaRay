@@ -1,29 +1,10 @@
 <h1>Hello </h1>
 
 <p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile.svg"width="25"/> <b>Santiago, Chile.</b> </p>
-<p>Currently I'm CEO of <a href="https://www.ioled.cl/">iOLED.</a> We connect cannabis growers with his crop with IoT technology.</p>
-
-<p>As an electrical engineer, I believe that we must fight to increase the generation of renewable energy.</p>
-
-<h3 align="center"> Use of energy in <img src="./chile.svg"width="35"/> Chile yesterday: 68.5 GWh</h3>
-<table align="center">
-  <tr>
-    <td><img src="./carbon.svg" width="40"></td>
-    <td><img src="./eolic.svg" width="60"/></td>
-    <td><img src="./hidro.svg" width="60"/></td>
-    <td><img src="./solar.svg" width="60"/></td>
-
-  </tr>
-  <tr>
-    <td> <strong> 45.12% </strong></td>
-    <td> <strong> 10.43% </strong></td>
-    <td> <strong> 29.59% </strong></td>
-    <td> <strong> 13.67% </strong></td>
-  </tr>
-</table>
-
-<br>
-<i >* The information is scraping from <a href="https://www.coordinador.cl/">Coodinador Eléctrico Nacional </a></i>
+<p>Currently I'm CEO/CTO of <a href="https://zurf.social/">Zurf</a>. </p>
+<p>For us, a social network is the next killer app for web3. Imagine combining the power of a social network with the power of web3.</p>
+ 
+Monetize your [social capital](https://en.wikipedia.org/wiki/Social_capital), using your influence and reputation in a way never seen before.</p>
 
 <hr>
 
@@ -58,5 +39,3 @@
 </p>
 
 <hr>
-
-<p align="center">This <i>README</i> file is generated <b>every day</b>!</br>Last refresh: Monday, February 21, 10:16 AM GMT-3<br /></p>
