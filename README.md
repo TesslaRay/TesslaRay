@@ -1,41 +1,46 @@
-<h1>Hello </h1>
+# Hello 👋
 
-<p>I'm Cristian Valdivia. I'm Electrical engineer and developer from <img src="./chile.svg"width="25"/> <b>Santiago, Chile.</b> </p>
-<p>Currently I'm CEO/CTO of <a href="https://zurf.social/">Zurf</a>. </p>
-<p>For us, a social network is the next killer app for web3. Imagine combining the power of a social network with the power of web3.</p>
- 
-Monetize your [social capital](https://en.wikipedia.org/wiki/Social_capital), using your influence and reputation in a way never seen before.</p>
+I'm **Cristian Valdivia Ramírez**. I'm an Electrical Engineer and developer from <img src="./chile.svg" width="25"/> **Santiago, Chile.**
 
-<hr>
+I dedicate myself to building technology in my laboratory where ideas come to life or die trying. It's a space to explore the unknown and challenge the established.
 
-<h3>Some technologies that I have used to make Backend</h3>  
+## What I Do
 
-<p>
-  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
-  <img alt="Google Cloud Platform" src="https://img.shields.io/badge/-Google_Cloud_Platform-1a73e8?style=flat-square&logo=google-cloud&logoColor=white" />
-  <img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-  <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=insomnia&logoColor=white" />
-</p>
+**Need help building a product, assembling a development team, or need technology consulting?**
 
-<h3>Some technologies that I have used to make Frontend</h3>
+I've spent many years creating products in areas like **IoT, blockchain, cryptocurrencies, and artificial intelligence**. I've worked on small projects to products used by people around the world. In the process, I learned the basics of design and programming to bring my ideas to life. Additionally, I stand out for my ability to teach and lead high-performance teams.
 
-<p>
-  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-  <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-</p>
+## Current Projects
 
-<h3>My favorite languages to program</h3>
-<p>
-  <img alt="JS" src="https://img.shields.io/badge/-Javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img alt="Dart" src="https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=black" />
-</p>
+### ⚖️ **[iusTomas](https://iustomas.ai)**
 
-<h3>Follow me</h3>
+We believe that the future of law is not replacing lawyers with machines, but empowering them with technology that understands legal language, respects local context, and adapts to real legal workflow.
+
+### 🎓 **Professor**
+
+Teaching Blockchain and Decentralized Algorithms course, covering blockchain fundamentals, smart contracts, and dApp development.
+
+## Past Ventures
+
+- **[A0x](https://a0x.co)** - Factory of AI agents, specialized in creating agents with social media and blockchain capabilities. An agent protocol that aims to create a new open workforce so anyone can build their own agents and get hired.
+
+- **[CLPD](https://clpd.mistokens.com/es) - Chilean Peso Stablecoin** - Chilean peso stablecoin, CLPD is a stablecoin backed 100% by Chilean pesos, which replicates the peso's value on the blockchain to offer faster, cheaper, and more secure transactions.
+
+- **[Zurf](https://zurf.social)** - Web3 social network built on Lens protocol and Farcaster, where users received rewards for sharing content and interacting. First web3 social network with live stream.
+
+- **[iOLED](https://www.instagram.com/ioled.cl)** - Smart LED technology to simplify medicinal cannabis cultivation, with intelligent LEDs to modify intensity, monitor humidity, temperature, and more.
+
+---
+
+## Follow me
+
 <p>
   <a href="https://twitter.com/cris___stark" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a> 
-  <a href="https://www.linkedin.com/in/cristian-stark-valdivia/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+  <a href="https://www.linkedin.com/in/cristian-valdivia/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
 </p>
 
-<hr>
+**🌐 Website:** [cristianvaldivia.cl](https://www.cristianvaldivia.cl/)
+
+---
+
+_"Building technology where ideas come to life or die trying."_
