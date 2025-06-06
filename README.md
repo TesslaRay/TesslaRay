@@ -24,9 +24,9 @@ Teaching Blockchain and Decentralized Algorithms course, covering blockchain fun
 
 - **[A0x](https://a0x.co)** - Factory of AI agents, specialized in creating agents with social media and blockchain capabilities. An agent protocol that aims to create a new open workforce so anyone can build their own agents and get hired.
 
-- **[CLPD](https://clpd.mistokens.com/es) - Chilean Peso Stablecoin** - Chilean peso stablecoin, CLPD is a stablecoin backed 100% by Chilean pesos, which replicates the peso's value on the blockchain to offer faster, cheaper, and more secure transactions.
+- **[CLPD](https://clpd.mistokens.com/es) - Chilean Peso Stablecoin** -, CLPD is a stablecoin backed 100% by Chilean pesos, which replicates the peso's value on the blockchain to offer faster, cheaper, and more secure transactions.
 
-- **[Zurf](https://zurf.social)** - Web3 social network built on Lens protocol and Farcaster, where users received rewards for sharing content and interacting. First web3 social network with live stream.
+- **[ZURF](https://zurf.social)** - Web3 social network built on Lens protocol and Farcaster, where users received rewards for sharing content and interacting. First web3 social network with live stream.
 
 - **[iOLED](https://www.instagram.com/ioled.cl)** - Smart LED technology to simplify medicinal cannabis cultivation, with intelligent LEDs to modify intensity, monitor humidity, temperature, and more.
 
